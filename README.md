@@ -1,14 +1,34 @@
-# React + Vite
+# 🧮 Contador com React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um contador simples feito com **React 19** e **Vite**, desenvolvido como parte dos meus estudos em desenvolvimento front-end.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Aumentar o valor do contador
+- ✅ Diminuir o valor do contador
+- ✅ Resetar para zero
+- ✅ Interface limpa e responsiva
 
-## Expanding the ESLint configuration
+## 🖼️ Demonstração
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Demonstração do contador](./public/demo.png) <!-- Substitua pelo caminho correto da imagem se houver -->
 
+## 🚀 Tecnologias
+
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- JavaScript
+- CSS
+
+## 📁 Estrutura do projeto
+```
+meu-contador/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
+├── package.json
+└── vite.config.js
+```
 ![image](https://github.com/user-attachments/assets/21bddd05-3edd-42e3-b0fd-a05715eef359)
